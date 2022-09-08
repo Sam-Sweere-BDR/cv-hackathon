@@ -41,7 +41,7 @@ CAMERA_DEVICE = 0  # 0 for internal camera, 4 for external camera
 # Hacky solution, last minute fix
 CAMERA_DEVICE = CameraController().camera_id
 
-MOUSE_AND_KEYBOARD_CONTROLS = True  # Set to True to enable mouse and keyboard controls
+MOUSE_AND_KEYBOARD_CONTROLS = False  # Set to True to enable mouse and keyboard controls
 
 
 def quit_pygame():
