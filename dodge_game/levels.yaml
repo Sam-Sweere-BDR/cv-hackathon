@@ -1,0 +1,240 @@
+# Level settings, first entry is level 0
+level_time: 20 # in seconds
+levels:
+  # Official lineup:
+  - image_transforms:
+      -
+    gap_size: 800
+    speed: 2
+  # --------------
+  - image_transforms:
+      -
+    gap_size: 500
+    speed: 3
+  # --------------
+  - image_transforms:
+      -
+    gap_size: 150
+    speed: 3
+  # --------------
+  - image_transforms:
+      -
+    gap_size: 100
+    speed: 3
+  # --------------
+  - image_transforms:
+      -
+    gap_size: 150
+    speed: 6
+  # -------------- Distortions
+  - image_transforms:
+      - Noise Low
+    gap_size: 500
+    speed: 3
+  # --------------
+  - image_transforms:
+      - Noise Low
+    gap_size: 150
+    speed: 3
+  # --------------
+  - image_transforms:
+      - Noise High
+    gap_size: 500
+    speed: 3
+  # --------------
+  - image_transforms:
+      - Noise High
+    gap_size: 150
+    speed: 3
+  # --------------
+  - image_transforms:
+      - Median Blur
+    gap_size: 500
+    speed: 3
+  # --------------
+  - image_transforms:
+      - Median Blur
+    gap_size: 150
+    speed: 3
+  # --------------
+  - image_transforms:
+      - Brighten
+    gap_size: 500
+    speed: 3
+  # --------------
+  - image_transforms:
+      -  Brighten
+    gap_size: 150
+    speed: 3
+  # --------------
+  - image_transforms:
+      - Darken
+    gap_size: 500
+    speed: 3
+  # --------------
+  - image_transforms:
+      - Darken
+    gap_size: 150
+    speed: 3
+  # --------------
+  - image_transforms:
+      - Erode
+    gap_size: 500
+    speed: 3
+  # --------------
+  - image_transforms:
+      - Erode
+    gap_size: 150
+    speed: 3
+  # --------------
+  - image_transforms:
+      - Dilate
+    gap_size: 500
+    speed: 3
+  # --------------
+  - image_transforms:
+      - Dilate
+    gap_size: 150
+    speed: 3
+
+  # --------------
+  - image_transforms:
+      - Compress
+    gap_size: 500
+    speed: 3
+  # --------------
+  - image_transforms:
+      - Compress
+    gap_size: 150
+    speed: 3
+
+  # Speedy boy
+  # --------------
+  - image_transforms:
+      -
+    gap_size: 150
+    speed: 12
+
+# Hard stuff
+  # --------------
+  - image_transforms:
+      - Grayscale
+    gap_size: 500
+    speed: 3
+  # --------------
+  - image_transforms:
+      - Grayscale
+    gap_size: 150
+    speed: 3
+  # --------------
+  - image_transforms:
+      - Grayscale
+    gap_size: 150
+    speed: 6
+
+  # --------------
+  - image_transforms:
+      - Normalize
+      - Grayscale
+      - Sobel
+    gap_size: 500
+    speed: 3
+  # --------------
+  - image_transforms:
+      - Normalize
+      - Grayscale
+      - Sobel
+    gap_size: 150
+    speed: 3
+
+  # --------------
+  - image_transforms:
+      - Disco
+    gap_size: 500
+    speed: 3
+  # --------------
+  - image_transforms:
+      - Disco
+    gap_size: 150
+    speed: 3
+
+  # --------------
+  - image_transforms:
+      - HSV Disco
+    gap_size: 500
+    speed: 3
+  # --------------
+  - image_transforms:
+      - HSV Disco
+    gap_size: 150
+    speed: 3
+
+  # --------------
+  - image_transforms:
+      - HSV Rave
+    gap_size: 500
+    speed: 3
+  # --------------
+  - image_transforms:
+      - HSV Rave
+    gap_size: 150
+    speed: 3
+
+  # --------------
+  - image_transforms:
+      - HSV Rave
+    gap_size: 100
+    speed: 3
+
+#  # --------------
+#  - image_transforms:
+#      - HSV Rave
+#    gap_size: 100
+#    speed: 3
+#
+#
+#
+#  # --------------
+#  - image_transforms:
+#      -
+#    gap_size: 400
+#    speed: 3
+#  # --------------
+#  - image_transforms:
+#      - Grayscale
+#    gap_size: 400
+#    speed: 3
+#  # --------------
+#  - image_transforms:
+#      - Normalize
+#      - Grayscale
+#      - Sobel
+#    gap_size: 400
+#    speed: 3
+#  # --------------
+#  - image_transforms:
+#      - Invert
+#    gap_size: 400
+#    speed: 3
+#  # --------------
+#  - image_transforms:
+#      -
+#    gap_size: 200
+#    speed: 3
+#  # --------------
+#  - image_transforms:
+#      - Grayscale
+#    gap_size: 200
+#    speed: 3
+#  # --------------
+#  - image_transforms:
+#      - Normalize
+#      - Grayscale
+#      - Sobel
+#    gap_size: 200
+#    speed: 3
+#  # --------------
+#  - image_transforms:
+#      - Invert
+#    gap_size: 200
+#    speed: 3
