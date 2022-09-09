@@ -30,6 +30,9 @@ class WebcamStream:
         self.fps_input_stream = int(self.vcap.get(5))  # hardware fps
         print("FPS of input stream: {}".format(self.fps_input_stream))
 
+        # Wait for the camera to initialize
+        time.sleep(0.2)
+
         # reading a single frame from vcap stream for initializing
         self.grabbed, self.frame = self.vcap.read()
         if self.grabbed is False:
